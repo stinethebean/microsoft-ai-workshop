@@ -130,6 +130,11 @@ Today, we’re going to create a model to predict who would have lived (and died
 
 18.  Press the **Run** button, and wait for the model to finish running. Once it is finished, click the output node of the **Evaluate Model** module, and click visualize to see how accurate your model is! Keep trying other algorithms until you are happy with your results.  
 
+
+## Testing the Model 
+Once you have trained a model with a satisfactory level of accuracy, how do you use it? One of the great things about Azure Machine Learning Studio is how easy it is to take your model and deploy it as a web service. Then you can simply have a website or app call the web service, pass in a set of values for the project columns and the web service will return the predicted value and confidence of the result.
+[Let's jump into this blog to go into testing:](https://blogs.msdn.microsoft.com/cdndevs/2016/05/13/would-you-have-survived-the-titanic-try-this-step-by-step-machine-learning-experiment-to-find-out/ "How to test your model") 
+
 ### Additional Resources
 
 - To learn how to deploy your model to an API endpoint, see [Deploy Web Service](https://docs.microsoft.com/en-us/azure/machine-learning/studio/walkthrough-5-publish-web-service)
